@@ -39,7 +39,7 @@ void initLine()
 		0.9f, 0.9f, 0.5f, 1.0f,
 	};
 
-	float index[2] = { 0, 1 };
+	int index[2] = { 0, 1 };
 
 	glGenBuffers(1, &VBO);
 	glBindBuffer(GL_ARRAY_BUFFER, VBO);
